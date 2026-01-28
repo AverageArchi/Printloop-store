@@ -1,0 +1,74 @@
+ErrorDocument 403 /page71974449.html
+ErrorDocument 404 /page71974449.html
+
+DirectoryIndex page71316555.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://printloop\.store/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.printloop\.store [NC]
+RewriteRule ^(.*)$ https://printloop\.store/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^companys$ page83420316.html [NC]
+RewriteRule ^companys/$ page83420316.html [NC]
+
+RewriteRule ^catalog$ page83523056.html [NC]
+RewriteRule ^catalog/$ page83523056.html [NC]
+
+RewriteRule ^blog$ page83379196.html [NC]
+RewriteRule ^blog/$ page83379196.html [NC]
+
+RewriteRule ^catalog/tshirts$ page83691316.html [NC]
+RewriteRule ^catalog/tshirts/$ page83691316.html [NC]
+
+RewriteRule ^catalog/hoodies$ page83691546.html [NC]
+RewriteRule ^catalog/hoodies/$ page83691546.html [NC]
+
+RewriteRule ^catalog/popular$ page83691166.html [NC]
+RewriteRule ^catalog/popular/$ page83691166.html [NC]
+
+RewriteRule ^catalog/new$ page83691036.html [NC]
+RewriteRule ^catalog/new/$ page83691036.html [NC]
+
+RewriteRule ^catalog/gift$ page83691916.html [NC]
+RewriteRule ^catalog/gift/$ page83691916.html [NC]
+
+RewriteRule ^catalog/pairs$ page83692236.html [NC]
+RewriteRule ^catalog/pairs/$ page83692236.html [NC]
+
+RewriteRule ^catalog/games$ page83692386.html [NC]
+RewriteRule ^catalog/games/$ page83692386.html [NC]
+
+RewriteRule ^catalog/memes$ page83718586.html [NC]
+RewriteRule ^catalog/memes/$ page83718586.html [NC]
+
+RewriteRule ^catalog/films$ page83718736.html [NC]
+RewriteRule ^catalog/films/$ page83718736.html [NC]
+
+RewriteRule ^catalog/sport$ page84167546.html [NC]
+RewriteRule ^catalog/sport/$ page84167546.html [NC]
+
+RewriteRule ^aboutus$ page72139183.html [NC]
+RewriteRule ^aboutus/$ page72139183.html [NC]
+
+RewriteRule ^faq$ page72411635.html [NC]
+RewriteRule ^faq/$ page72411635.html [NC]
+
+RewriteRule ^terms$ page71433757.html [NC]
+RewriteRule ^terms/$ page71433757.html [NC]
+
+RewriteRule ^privacy$ page71433741.html [NC]
+RewriteRule ^privacy/$ page71433741.html [NC]
+
+RewriteRule ^thank_you$ page95346186.html [NC]
+RewriteRule ^thank_you/$ page95346186.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC,L]
+
+

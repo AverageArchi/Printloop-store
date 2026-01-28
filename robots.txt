@@ -1,0 +1,33 @@
+User-Agent: *
+Disallow: /page72139183.html
+Disallow: /aboutus
+Disallow: /page72411635.html
+Disallow: /faq
+Disallow: /page72552393.html
+Disallow: /page71433757.html
+Disallow: /terms
+Disallow: /page71433741.html
+Disallow: /privacy
+Disallow: /page71944193.html
+Disallow: /page71316009.html
+Disallow: /page71316395.html
+Disallow: /page83533616.html
+Disallow: /page71974449.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /members/login*
+Disallow: /members/signup*
+Disallow:
+
+
+Sitemap: https://printloop.store/sitemap.xml
+Sitemap: https://printloop.store/sitemap-store.xml
+Sitemap: https://printloop.store/sitemap-feeds.xml
+Sitemap: https://printloop.store/sitemap-store.xml
+Sitemap: https://printloop.store/sitemap-feeds.xml
