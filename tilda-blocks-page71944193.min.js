@@ -1,0 +1,1 @@
+window.isFirefox=/firefox/i.test(navigator.userAgent);window.isOpera=(!!window.opr&&!!window.opr.addons)||!!window.opera||navigator.userAgent.indexOf(' OPR/')>=0
